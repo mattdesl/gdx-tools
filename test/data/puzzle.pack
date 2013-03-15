@@ -1,0 +1,19 @@
+
+puzzle.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+piece1
+  rotate: false
+  xy: 1, 1
+  size: 258, 252
+  orig: 258, 252
+  offset: 0, 0
+  index: -1
+piece2
+  rotate: false
+  xy: 261, 1
+  size: 258, 252
+  orig: 258, 252
+  offset: 0, 0
+  index: -1
