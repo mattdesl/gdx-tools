@@ -1,74 +1,41 @@
 <!DOCTYPE html>
 <html>
+<title>Hello Strapdown</title>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="LibGDX: Noob to Pro : tutorials and code snippets" />
+<xmp theme="united" style="display:none;">
+_lwjgl-basics_ is a minimal shader-based library for 2D LWJGL sprite games. It provides essential utilities for handling textures, shaders, and sprite rendering.
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+For a large game project, a platform like [LibGDX](http://libgdx.badlogicgames.com/) may be more suitable.
 
-    <title>LibGDX: Noob to Pro</title>
-  </head>
+The [source code](https://github.com/mattdesl/lwjgl-basics) is hosted on GitHub.
 
-  <body>
+### OpenGL & Shader Tutorials
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/mattdesl/gdx-tools">View on GitHub</a>
+The Wiki also hosts various OpenGL and GLSL tutorials:  
+https://github.com/mattdesl/lwjgl-basics/wiki
 
-          <h1 id="project_title">LibGDX: Noob to Pro</h1>
-          <h2 id="project_tagline">tutorials and code snippets</h2>
+### Installing the API
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/mattdesl/gdx-tools/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/mattdesl/gdx-tools/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
+The best way to install the API is to use Eclipse and EGit (or another IDE with Git support) to pull the most recent source code. Included in the `lib` and `native` folder is a distribution of LWJGL 2.8.5, as well as an Eclipse project with class path set up for you. You can download newer versions of LWJGL from their [downloads page](http://lwjgl.org/download.php). 
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>Welcome to GitHub Pages.</h3>
+Alternatively, you can download the full library as a ZIP:
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+![ZIP](http://i.imgur.com/Dkvp0.png)
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+Then, simply open the Eclipse project to start testing. Ensure your LWJGL JARs and natives have been set correctly in [Eclipse](http://www.lwjgl.org/wiki/index.php?title=Setting_Up_LWJGL_with_Eclipse), [NetBeans](http://www.lwjgl.org/wiki/index.php?title=Setting_Up_LWJGL_with_NetBeans) or [IntelliJ](http://www.lwjgl.org/wiki/index.php?title=Setting_Up_LWJGL_with_IntelliJ_IDEA), and include lwjgl-basics as a class library. lwjgl-basics also uses PNGDecoder.jar as a dependency, which can be downloaded [here](http://twl.l33tlabs.org/textureloader/).
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+See the [tests](https://github.com/mattdesl/lwjgl-basics/tree/master/test/mdesl/test) package to get started with some basic examples.
 
-<h3>Designer Templates</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+### Credits
 
-<h3>Rather Drive Stick?</h3>
+- PNG decoder by Matthias Mann
+- [PT Font](http://www.fontsquirrel.com/fonts/PT-Sans)
+- [Grass & Water Tileset](http://opengameart.org/content/grass-and-water-tiles)
+- [Tiling textures](http://opengameart.org/content/tilling-textures-pack-33)
+- [2D Game Scene](http://opengameart.org/content/grassland-tileset)
+- Code written by Matt DesLauriers (aka: davedes or mattdesl) unless otherwise stated.
+</xmp>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">LibGDX: Noob to Pro maintained by <a href="https://github.com/mattdesl">mattdesl</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
 </html>
