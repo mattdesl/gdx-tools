@@ -1,4 +1,5 @@
 gdx-tools
 =========
 
-Some public tools and extensions for LibGDX
+Main website WIP
+http://mattdesl.github.com/gdx-tools/
